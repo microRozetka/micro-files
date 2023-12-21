@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--Device tree-->
+   <!--SDM660-->
+  <project name="Whyred-Dynamic-Development/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" revision="lineage-20" remote="github"/>
+   <!--Whyred-->
+  <project name="Whyred-Dynamic-Development/android_device_xiaomi_whyred" path="device/xiaomi/whyred" revision="lineage-20" remote="github"/>
+  
+  <!--Kernel-->
+   <!--SAN Kernel 4.19-->
+  <project name="Whyred-Dynamic-Development/san_kernel_sdm660_4" path="kernel/xiaomi/sdm660-common" revision="san-4.19-mesh" remote="github"/>
+  <project path="device/xiaomi/bouquet-kernels" name="Whyred-Dynamic-Development/android_device_xiaomi_bouquet-kernels" remote="github" revision="thirteen"/>
+  
+  <!--Blobs-->
+  <project path="vendor/xiaomi/whyred" name="Whyred-Dynamic-Development/android_vendor_xiaomi_whyred" remote="github" revision="lineage-20" />
+  <project name="Whyred-Dynamic-Development/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" revision="lineage-20" remote="github"/>
+  
+  <!--Idk-->
+  <project path="hardware/qcom-caf/bouquet/media" name="Whyred-Dynamic-Development/android_hardware_qcom_media" remote="github" revision="13-4.19" />
+  <project path="hardware/qcom-caf/bouquet/audio" name="Whyred-Dynamic-Development/android_hardware_qcom_audio" remote="github" revision="13-4.19" />
+  <project path="hardware/qcom-caf/bouquet/display" name="Whyred-Dynamic-Development/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" />
+</manifest>
