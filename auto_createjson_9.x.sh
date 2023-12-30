@@ -7,12 +7,15 @@ time=$(cat $path/out/build_date.txt)                                            
 zip=$(basename $path/out/target/product/$device/crDroidAndroid-13.0-*-$device-*.zip)        # Here we get the package name with the extension .zip
 nozip=$(basename $path/out/target/product/$device/crDroidAndroid-13.0-*-$device-*.zip .zip) # Here we get the package name without the extension .zip
 date=$(echo $zip | cut -f3 -d '-')                                                          # Here we get the build date (in YYYY-MM-DD format)
+device="dreamlte"
+devicename="Galaxy S8"
+oem="Samsung"
 
-  case "${device,,}" in 
+#  case "${device,,}" in 
 
-	"dreamlte"         ) devicename="Galaxy S8" && oem="Samsung"       ;;  #
+#	"dreamlte"         ) devicename="Galaxy S8" && oem="Samsung"       ;;  #
 
-	esac
+#	esac
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
 forum=""   # https link (mandatory)

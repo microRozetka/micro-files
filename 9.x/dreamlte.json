@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "microRozetka",
+        "oem": "Samsung",
+        "device": "Galaxy S8",
+        "filename": "dreamlte",
+        "download": "https://github.com/microRozetka/micro-files/releases/download//",
+        "timestamp": 1703928416,
+        "md5": "",
+        "sha256": "",
+        "size": 4096,
+        "version": "dreamlte.dreamlte",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "https://github.com/BiTGApps/BiTGApps-Release/releases/download/v2.6/BiTGApps-arm-13.0.0-v2.6-CORE.zip",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/microRozetka_hub",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
