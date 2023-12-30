@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "microRozetka",
+        "oem": "",
+        "device": "",
+        "filename": "crDroidAndroid-13.0-*-fog-*.zip",
+        "download": "https://github.com/microRozetka/micro-files/releases/download/crDroidAndroid-13.0-*-fog-*/crDroidAndroid-13.0-*-fog-*.zip",
+        "timestamp": ,
+        "md5": "",
+        "sha256": "",
+        "size": ,
+        "version": "*.zip",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "https://github.com/BiTGApps/BiTGApps-Release/releases/download/v2.6/BiTGApps-arm-13.0.0-v2.6-CORE.zip",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/microRozetka_hub",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
