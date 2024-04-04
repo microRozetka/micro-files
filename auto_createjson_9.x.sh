@@ -1,7 +1,7 @@
 #!/bin/bash
 
 maintainer="microRozetka"                                                        # Here we get the name of maintainer
-path=~/crdroid9                                                            # Here you will need to specify the path to the crDroid source code folder
+path=~/crd9                                                            # Here you will need to specify the path to the crDroid source code folder
 device=$(ls $path/out/target/product)                                                       # Here we get the name of the device based on the name of the folder
 time=$(cat $path/out/build_date.txt)                                                        # Here we get the build time
 zip=$(basename $path/out/target/product/$device/crDroidAndroid-13.0-*-$device-*.zip)        # Here we get the package name with the extension .zip
@@ -16,7 +16,7 @@ date=$(echo $zip | cut -f3 -d '-')                                              
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
 forum=""   # https link (mandatory)
-gapps="https://github.com/BiTGApps/BiTGApps-Release/releases/download/v2.6/BiTGApps-arm-13.0.0-v2.6-CORE.zip" #https link (leave empty if unused)
+gapps="https://github.com/BiTGApps/BiTGApps-Release/releases/download/v3.0/BiTGApps-arm64-13.0.0-v3.0-CORE.zip" #https link (leave empty if unused)
 firmware=""                                  # https link (leave empty if unused)
 modem=""                                     # https link (leave empty if unused)
 bootloader=""                                # https link (leave empty if unused)
