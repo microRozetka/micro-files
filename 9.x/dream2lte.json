@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "microRozetka",
+        "oem": "Samsung",
+        "device": "Galaxy S8",
+        "filename": "crDroidAndroid-13.0-20240404-dream2lte-v9.15.zip",
+        "download": "https://github.com/microRozetka/micro-files/releases/download/crDroidAndroid-13.0-20240404-dream2lte-v9.15/crDroidAndroid-13.0-20240404-dream2lte-v9.15.zip",
+        "timestamp": 1712210730,
+        "md5": "e8924f994f8e45e0feb89a92bd9663df",
+        "sha256": "3066bea7709a29145da6414e7115e23966b73d6a04749b0fe3b7c70acffc00f3",
+        "size": 909073863,
+        "version": "9.15",
+        "buildtype": "Weekly",
+        "forum": "https://4pda.to/forum/index.php?showuser=10589405",
+        "gapps": "https://github.com/BiTGApps/BiTGApps-Release/releases/download/v3.0/BiTGApps-arm64-13.0.0-v3.0-CORE.zip",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/microRozetka_hub",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
